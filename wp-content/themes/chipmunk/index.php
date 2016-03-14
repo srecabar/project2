@@ -47,7 +47,8 @@ get_header(); ?>
         <h2>How it Works</h2>
       </div>
   </div>
-        <div class="how-it-works">
+  <div class="container">
+    <div class="game-with">
          <div class="row">
             <div class="col-md-4">
               <h4>Game with code{dame}</h4>
@@ -63,7 +64,28 @@ get_header(); ?>
                   <p>Code{Dame} allows you to connect with others. Invite your friends and test your knowledge of code to see who is the better coder</p>
            </div>
         </div>
-      </div>
     </div>
-
+  </div>
+  <div class="container">
+    <div class="reviews">
+       <div class="row">
+         <div class="col-md-12">
+             <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/computer8.jpg" class="img-responsive">
+             <h3>Reviews</h3>
+         </div>
+         <div class="col-md-4">
+              <p>“I've always loved technology but I didn’t consider it a career path because I didn’t feel confident in my skills. CodeDame has
+                given me the tools I need to trust myself and make the changes that my life needs.”</p>
+         </div>
+         <div class="col-md-4">
+            <p>“I like CodeDame because I get to use my brain more creatively and think outside of the box. Since learning how to code, I feel
+                 as empowered as my male counterparts at work.”</p>
+         </div>
+         <div class="col-md-4">
+            <p>“I’m passionate about being creative and being able to work with people to make cool stuff. CodeDame is a great medium for
+                  expression, learning, and building”</p>
+         </div>
+       </div>
+    </div>
+  </div>
 <?php get_footer(); ?>

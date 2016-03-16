@@ -70,22 +70,23 @@ get_header(); ?>
     <div class="reviews">
        <div class="row">
          <div class="col-md-12">
-             <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/computer8.jpg" class="img-responsive">
+          <div class="yellow-box">
              <h3>Reviews</h3>
-         </div>
-         <div class="col-md-4">
+            <div class="col-md-4">
               <p>“I've always loved technology but I didn’t consider it a career path because I didn’t feel confident in my skills. CodeDame has
                 given me the tools I need to trust myself and make the changes that my life needs.”</p>
-         </div>
-         <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
             <p>“I like CodeDame because I get to use my brain more creatively and think outside of the box. Since learning how to code, I feel
                  as empowered as my male counterparts at work.”</p>
-         </div>
-         <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
             <p>“I’m passionate about being creative and being able to work with people to make cool stuff. CodeDame is a great medium for
                   expression, learning, and building”</p>
-         </div>
+           </div>
+          </div>
        </div>
     </div>
   </div>
+</div>
 <?php get_footer(); ?>

@@ -282,6 +282,7 @@ display: block;
 	display: inline-block;
 	margin: 10 10px;
 	padding: 5px 10px;
+	background-color: #323232; opacity: 0.9;
 }
 .navbar-header .row .col-xs-3:first-child  h4{
 	border: 6px solid #c4c4c4;
@@ -330,6 +331,8 @@ display: block;
 	font-size: 16px;
 	border: 20px solid #ffd123;
 	background-color: #ffd123;
+	width:370px;
+	margin:0 auto 50px auto; /*centers and adds spacing between containers*/
 }
 
 /* How-it-works ---------------------------------------------------------- */
@@ -373,7 +376,7 @@ display: block;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	border: 23px solid #ddcb35;
-	background-color: #ddcb35;
+	background-color:
 	text-transform: uppercase;
 }
 
@@ -381,4 +384,9 @@ display: block;
 	text-align: center;
 	color: #000000;
 	font-family: 'Roboto', sans-serif;
+}
+
+.yellow-box {
+	background-color: #ddcb35;
+	padding-bottom: 300px;
 }

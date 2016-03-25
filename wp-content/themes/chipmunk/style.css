@@ -314,6 +314,15 @@ display: block;
 	overflow: hidden;
 }
 
+.code-dame.container {
+  position: relative;
+  z-index: 10;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
 /* Brief ---------------------------------------------------------- */
 
 .brief p {
@@ -324,16 +333,21 @@ display: block;
 
 /* Download ---------------------------------------------------------- */
 
+.download {
+	border-top: 10px solid #FFFFFF;
+	background-color: #ffd123;
+	width: 200px;
+	height: 60px;
+	margin:0 auto 0px auto; /*centers and adds spacing between containers*/
+}
+
 .download h3 {
 	text-align: center;
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 14px;
-	border: 20px solid #ffd123;
-	background-color: #ffd123;
-	width: 200px;
-	margin:0 auto 50px auto; /*centers and adds spacing between containers*/
 }
+
 /* Exposing ---------------------------------------------------------- */
 
 .exposing {
@@ -343,7 +357,7 @@ display: block;
 .exposing h5 {
 	text-align: center;
 	color: #ffffff;
-	font-size: 15px;
+	font-size: 11px;
 	border: 23px solid #3b00af;
 	text-transform: uppercase;
 }
@@ -387,7 +401,7 @@ display: block;
 
 .reviews {
 	background-color: #ddcb35;
-	padding-bottom: 300px;
+	padding-bottom: 0px;
 }
 
 .reviews h3 {

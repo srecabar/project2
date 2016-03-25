@@ -19,7 +19,6 @@ get_header(); ?>
             <div class="code-dame">
               <h1>code{dame}</h1>
             </div>
-            <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/computer7.jpg" class="img-responsive">
           </div>
       </div>
       <div class="exposing">
@@ -44,10 +43,10 @@ get_header(); ?>
         <div class="row">
           <div class="col-sm-12">
               <h3>Download for IOS</h3>
-              <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/computer8.jpg" class="img-responsive">
           </div>
         </div>
   </div>
+    <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/computer8.jpg" class="img-responsive">
   <div class="how-it-works">
    <div class="row">
       <div class="col-md-12">
@@ -81,23 +80,31 @@ get_header(); ?>
   <div class="container">
     <div class="reviews">
        <div class="row">
-         <div class="col-md-12">
+         <div class="col-sm-12">
              <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/computer9.jpeg">
           <h3>Reviews</h3>
             <div class="col-md-4">
               <p>“I've always loved technology but I didn’t consider it a career path because I didn’t feel confident in my skills. CodeDame has
                 given me the tools I need to trust myself and make the changes that my life needs.”</p>
+              <p>-Catherine, 29</p>
             </div>
             <div class="col-md-4">
             <p>“I like CodeDame because I get to use my brain more creatively and think outside of the box. Since learning how to code, I feel
                  as empowered as my male counterparts at work.”</p>
+            <p>-Sofia, 40</p>
             </div>
             <div class="col-md-4">
             <p>“I’m passionate about being creative and being able to work with people to make cool stuff. CodeDame is a great medium for
                   expression, learning, and building”</p>
+            <p>-Colleen, 22</p>
            </div>
+            <div class="row">
+            <div class="col-sm-12">
+             <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/woman.jpeg">
+            </div>
+          </div>
+         </div>
        </div>
     </div>
   </div>
-</div>
 <?php get_footer(); ?>

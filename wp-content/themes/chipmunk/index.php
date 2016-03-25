@@ -52,16 +52,19 @@ get_header(); ?>
          <div class="row">
             <div class="col-md-4">
               <h4>Game with code{dame}</h4>
-                  <p>Learning code is easy when you can access information right on your phone</p>
+                  <p>Learning code is easy when you can access information right on your phone</p></br>
+                  <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/phone.png">
             </div>
             <div class="col-md-4">
               <h4>Earn Badges</h4>
                   <p>The more you play, the better you understand code and the harder each level gets!
                      For each level you complete, you earn a badge that helps keep track of your progress</p>
+                     <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/numbers.png">
             </div>
             <div class="col-md-4">
               <h4>Connect with friends</h4>
                   <p>Code{Dame} allows you to connect with others. Invite your friends and test your knowledge of code to see who is the better coder</p>
+                  <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/arrows.png">
            </div>
         </div>
     </div>

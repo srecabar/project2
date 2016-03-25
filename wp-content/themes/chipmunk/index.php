@@ -24,6 +24,15 @@ get_header(); ?>
       </div>
     </div>
     <div class="container">
+      <div class="exposing">
+       <div class="row">
+        <div class="col-sm-12">
+          <h5>exposing women to the benefits of learning and loving code</h5>
+        </div>
+       </div>
+     </div>
+   </div>
+    <div class="container">
       <div class="brief">
         <div class="row">
           <div class="col-md-12">
@@ -52,7 +61,7 @@ get_header(); ?>
          <div class="row">
             <div class="col-md-4">
               <h4>Game with code{dame}</h4>
-                  <p>Learning code is easy when you can access information right on your phone</p></br>
+                  <p>Learning code is easy when you can access information right on your phone</p>
                   <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/phone.png">
             </div>
             <div class="col-md-4">
@@ -69,6 +78,7 @@ get_header(); ?>
         </div>
     </div>
   </div>
+  <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/computer9.jpeg">
   <div class="container">
     <div class="reviews">
        <div class="row">

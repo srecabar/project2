@@ -334,6 +334,16 @@ display: block;
 	width: 200px;
 	margin:0 auto 50px auto; /*centers and adds spacing between containers*/
 }
+/* Exposing ---------------------------------------------------------- */
+
+.exposing {
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	border: 23px solid #3b00af;
+	background-color: #3b00af; opacity: 0.8;
+	text-transform: uppercase;
+}
 
 /* How-it-works ---------------------------------------------------------- */
 
@@ -385,6 +395,8 @@ display: block;
 	color: #000000;
 	font-family: 'Roboto', sans-serif;
 }
+
+/* Boxes ---------------------------------------------------------- */
 
 .yellow-box {
 	background-color: #ddcb35;

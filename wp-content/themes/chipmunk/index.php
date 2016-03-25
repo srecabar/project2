@@ -22,8 +22,6 @@ get_header(); ?>
             <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/computer7.jpg" class="img-responsive">
           </div>
       </div>
-    </div>
-    <div class="container">
       <div class="exposing">
        <div class="row">
         <div class="col-sm-12">
@@ -31,7 +29,7 @@ get_header(); ?>
         </div>
        </div>
      </div>
-   </div>
+    </div>
     <div class="container">
       <div class="brief">
         <div class="row">
@@ -55,7 +53,9 @@ get_header(); ?>
       <div class="col-md-12">
         <h2>How it Works</h2>
       </div>
-  </div>
+   </div>
+ </div>
+ </div>
   <div class="container">
     <div class="game-with">
          <div class="row">
@@ -78,13 +78,12 @@ get_header(); ?>
         </div>
     </div>
   </div>
-  <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/computer9.jpeg">
   <div class="container">
     <div class="reviews">
        <div class="row">
          <div class="col-md-12">
-          <div class="yellow-box">
-             <h3>Reviews</h3>
+             <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/computer9.jpeg">
+          <h3>Reviews</h3>
             <div class="col-md-4">
               <p>“I've always loved technology but I didn’t consider it a career path because I didn’t feel confident in my skills. CodeDame has
                 given me the tools I need to trust myself and make the changes that my life needs.”</p>
@@ -97,7 +96,6 @@ get_header(); ?>
             <p>“I’m passionate about being creative and being able to work with people to make cool stuff. CodeDame is a great medium for
                   expression, learning, and building”</p>
            </div>
-          </div>
        </div>
     </div>
   </div>

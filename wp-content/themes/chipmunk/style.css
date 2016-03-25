@@ -337,15 +337,21 @@ display: block;
 /* Exposing ---------------------------------------------------------- */
 
 .exposing {
-	text-align: center;
-	color: #ffffff;
-	font-size: 20px;
-	border: 23px solid #3b00af;
 	background-color: #3b00af; opacity: 0.8;
-	text-transform: uppercase;
 }
 
+.exposing h5 {
+	text-align: center;
+	color: #ffffff;
+	font-size: 15px;
+	border: 23px solid #3b00af;
+	text-transform: uppercase;
+}
 /* How-it-works ---------------------------------------------------------- */
+.how-it-works {
+		background-color: #3b00af; opacity: 0.8;
+		padding-bottom: 10px;
+}
 
 .how-it-works h2 {
 	text-align: center;
@@ -353,7 +359,6 @@ display: block;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	border: 23px solid #3b00af;
-	background-color: #3b00af; opacity: 0.8;
 	text-transform: uppercase;
 }
 
@@ -380,12 +385,16 @@ display: block;
 
 /* Reviews ---------------------------------------------------------- */
 
+.reviews {
+	background-color: #ddcb35;
+	padding-bottom: 300px;
+}
+
 .reviews h3 {
 	text-align: center;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
-	border: 23px solid #ddcb35;
 	background-color:
 	text-transform: uppercase;
 }
@@ -397,8 +406,3 @@ display: block;
 }
 
 /* Boxes ---------------------------------------------------------- */
-
-.yellow-box {
-	background-color: #ddcb35;
-	padding-bottom: 300px;
-}

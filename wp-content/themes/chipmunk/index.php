@@ -35,7 +35,7 @@ get_header(); ?>
     </div>
    <div class="download">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-sm-12">
               <h3>Download for IOS</h3>
               <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/computer8.jpg" class="img-responsive">
           </div>

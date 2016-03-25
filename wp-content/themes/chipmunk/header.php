@@ -67,7 +67,7 @@
 						</div>
 
 					<!-- The WordPress Menu goes here -->
-					<?php wp_nav_menu(
+					<?php /* wp_nav_menu(
 						array(
 							'theme_location' 	=> 'primary',
 							'depth'             => 2,
@@ -78,7 +78,7 @@
 							'menu_id'			=> 'main-menu',
 							'walker' 			=> new wp_bootstrap_navwalker()
 						)
-					); ?>
+					); */ ?>
 
 				</div><!-- .navbar -->
 			</div>

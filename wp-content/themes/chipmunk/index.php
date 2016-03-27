@@ -86,17 +86,23 @@ get_header(); ?>
             <div class="col-md-4">
               <p>“I've always loved technology but I didn’t consider it a career path because I didn’t feel confident in my skills. CodeDame has
                 given me the tools I need to trust myself and make the changes that my life needs.”</p>
-              <p>-Catherine, 29</p>
+              <div class="p1">
+                <p>-Catherine, 29</p>
+              </div>
             </div>
             <div class="col-md-4">
             <p>“I like CodeDame because I get to use my brain more creatively and think outside of the box. Since learning how to code, I feel
                  as empowered as my male counterparts at work.”</p>
-            <p>-Sofia, 40</p>
+            <div class="p1">
+              <p>-Sofia, 40</p>
+            </div>
             </div>
             <div class="col-md-4">
             <p>“I’m passionate about being creative and being able to work with people to make cool stuff. CodeDame is a great medium for
                   expression, learning, and building”</p>
-            <p>-Colleen, 22</p>
+            <div class="p1">
+              <p>-Colleen, 22</p>
+            </div>
            </div>
             <div class="row">
             <div class="col-sm-12">
@@ -107,4 +113,26 @@ get_header(); ?>
        </div>
     </div>
   </div>
+ <div class="container">
+  <div class="box">
+   <div class="questions">
+    <div class="row">
+      <div class="col-xs-12 col-md-12 col-lg-12">
+        <h2>Have any questions?</h2>
+          <p>Send us an e-mail:
+           <strong>hello@codedame.com</strong></p>
+          <p>Your Name</br>
+           <input type="text" name="name"/></p>
+          <p>Your e-mail</br>
+          <input type="text" name="email"/></p>
+          <p>Subject</br>
+          <input type="text" name="subject"/></p>
+      <form acion="http:////localhost:8888/project2">
+        <p>Your Message</p>
+        <textarea name="message">Enter your message here...</textarea>
+      </div>
+    </div>
+   </div>
+  </div>
+ </div>
 <?php get_footer(); ?>

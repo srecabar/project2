@@ -428,7 +428,7 @@ display: block;
 /* Questions ---------------------------------------------------------- */
 
 .questions {
-		padding-bottom: 10px;
+	padding-bottom: 10px;
 }
 
 .questions h2 {
@@ -444,26 +444,32 @@ display: block;
 	font-family: 'Roboto', sans-serif;
 }
 
-/* Form ---------------------------------------------------------- */
+/* Questions ---------------------------------------------------------- */
 
-.questions input {
-	width: 200px;
+.form p {
+margin:0 auto 0px auto;
+}
+
+.form input {
+	width: 300px;
 	height:25px;
 	margin: 10px;
 	border: 1px solid #000000;
 	text-align: center;
 }
 
-.questions textarea {
+.form textarea {
 	width: 300px;
 	height:300px;
 	text-align: center;
 }
 
-.questions {
-	width: 400px;
-	height: 700px;
+.form {
 	text-align: center;
 	border: 1px solid #000000;
 	margin:0 auto 0px auto;
+	position: relative;
+	height: 600px;
+	align-items: baseline;
+	padding-top: 15px;
 }

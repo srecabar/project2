@@ -114,13 +114,18 @@ get_header(); ?>
     </div>
   </div>
  <div class="container">
-  <div class="box">
-   <div class="questions">
+    <div class="questions">
+     <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+         <h2>Have any questions?</h2>
+          <p>Send us an e-mail:</br>
+           <strong>hello@codedame.com</strong></p>
+        </div>
+      </div>
+    </div>
+  <div class="form">
     <div class="row">
       <div class="col-xs-12 col-md-12 col-lg-12">
-        <h2>Have any questions?</h2>
-          <p>Send us an e-mail:
-           <strong>hello@codedame.com</strong></p>
           <p>Your Name</br>
            <input type="text" name="name"/></p>
           <p>Your e-mail</br>
@@ -128,11 +133,10 @@ get_header(); ?>
           <p>Subject</br>
           <input type="text" name="subject"/></p>
       <form acion="http:////localhost:8888/project2">
-        <p>Your Message</p>
+        <p>Your Message</p></br>
         <textarea name="message">Enter your message here...</textarea>
       </div>
     </div>
    </div>
   </div>
- </div>
 <?php get_footer(); ?>

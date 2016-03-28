@@ -53,16 +53,22 @@
 					<div class="navbar-header">
 						<div class="row">
 							 <div class="col-xs-3">
-								<h4>About</h4>
+								<h4><a href="#how-it-works-anchor">About</a></h4>
 							</div>
 								<div class="col-xs-3">
-									<h4>Reviews</h4>
+									<h4><a href="#reviews-anchor">Reviews</a></h4>
 								</div>
 								<div class="col-xs-3">
-									<h4>Contact</h4>
+									<h4><a href="#questions-anchor">Contact</a></h4>
 								</div>
 								<div class="col-xs-3">
-									<h4>Blog</h4>
+									<form role="search" method="get" id="searchform" class="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+									 <div>
+										 <label class="screen-reader-text" for="s"><?php _x( 'Search for:', 'label' ); ?></label>
+										 <!-- <input type="text" id="searchtext" value="<?php echo get_search_query(); ?>" name="s" id="s" /> -->
+										 <input type="submit" id="searchsubmit" value="<?php echo esc_attr_x( '', 'submit button' ); ?>" />
+									 </div>
+								 </form>
 								</div>
 						</div>
 

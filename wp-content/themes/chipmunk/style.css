@@ -264,7 +264,7 @@ display: block;
 /* NAVIGATION ---------------------------------------------------------- */
 
 .navbar {
-	position: fixed;
+	position: relative;
 	top: 1;
 	background-color: transparent;
 	border: none;
@@ -273,6 +273,7 @@ display: block;
 	text-transform: uppercase;
 	z-index: 100000;
 	margin:0 auto 0px auto;
+	top: 75px;
 }
 .navbar h4 {
 	margin: 20px;
@@ -354,8 +355,10 @@ a:hover {
 
 .brief p {
 	font-family: 'Roboto', sans-serif;
-	text-align:center;
+	text-align: center;
 	color: #3b00af;
+	position: relative;
+	top: -25px;
 }
 
 /* Download ---------------------------------------------------------- */
@@ -394,6 +397,7 @@ a:hover {
 	border: 23px solid #3b00af;
 	text-transform: uppercase;
 }
+
 
 /* How-it-works ---------------------------------------------------------- */
 
@@ -449,7 +453,6 @@ a:hover {
 
 .reviews {
 	background-color: #ddcb35;
-	padding-bottom: 0px;
 }
 
 .reviews h2 {

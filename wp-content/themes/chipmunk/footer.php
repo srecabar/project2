@@ -15,14 +15,17 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
 	<div class="container">
-		<div class="row">
+		<div class="footer">
+		 <div class="row">
 			<div class="site-footer-inner col-sm-12">
-
+						<img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/insta.png">
+						<img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/twitter.png">
+						<img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/fb.png">
 				<div class="site-info">
-					
-				</div><!-- close .site-info -->
 
+				</div><!-- close .site-info -->
 			</div>
+		 </div>
 		</div>
 	</div><!-- close .container -->
 </footer><!-- close #colophon -->

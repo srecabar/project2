@@ -271,19 +271,16 @@ display: block;
 	font-family: 'Roboto', sans-serif;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	z-index: 999999;
+	z-index: 100000;
+	margin:0 auto 0px auto;
 }
 .navbar h4 {
 	margin: 20px;
-	padding: 2px;
 	font-size: 12px;
-}
-.navbar h4 {
 	display: inline-block;
-	margin: 20px;
 	padding: 5px 10px;
-	background-color: #323232; opacity: 0.9;
 }
+
 .navbar-header .row .col-xs-3:first-child  h4{
 	border: 6px solid #c4c4c4;
 }
@@ -298,6 +295,14 @@ display: block;
 	border: 6px solid #3b00af;
 }
 
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: deeppink;
+}
 /* Search Form ---------------------------------------------------------- */
 
 #searchform {
@@ -377,6 +382,9 @@ display: block;
 
 .exposing {
 	background-color: #3b00af; opacity: 0.8;
+	position: relative;
+	top: -80px;
+	padding-bottom: 12px;
 }
 
 .exposing h5 {
@@ -386,6 +394,7 @@ display: block;
 	border: 23px solid #3b00af;
 	text-transform: uppercase;
 }
+
 /* How-it-works ---------------------------------------------------------- */
 
 #how-it-works-anchor {
@@ -397,7 +406,7 @@ display: block;
 	position: relative;
 	top: -80px;
 	background-color: #3b00af; opacity: 0.8;
-	padding-bottom: 10px;
+	padding-bottom: 4px;
 }
 
 .how-it-works h2 {
@@ -416,7 +425,6 @@ display: block;
 	top: -40px;
 	font-family: 'Roboto', sans-serif;
 	color: #000000;
-	z-index: 999999;
 	text-align: center;
 }
 
@@ -435,7 +443,7 @@ display: block;
 
 #reviews-anchor {
 	display: block;
-	position:relative;
+	position: relative;
 	top: -110px;
 }
 
@@ -444,12 +452,11 @@ display: block;
 	padding-bottom: 0px;
 }
 
-.reviews h3 {
+.reviews h2 {
 	text-align: center;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
-	background-color:
 	text-transform: uppercase;
 }
 
@@ -491,7 +498,7 @@ display: block;
 /* Form---------------------------------------------------------- */
 
 .form p {
-text-align: left;
+  text-align: left;
 }
 
 .form {
@@ -518,3 +525,10 @@ text-align: left;
 	height: 230px;
 	text-align: left;
 }
+
+/* Footer---------------------------------------------------------- */
+
+ .footer img {
+	 	margin:0 auto 0px auto;
+		float: right;
+ }

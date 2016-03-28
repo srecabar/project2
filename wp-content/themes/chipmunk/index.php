@@ -84,7 +84,7 @@ get_header(); ?>
           <div class="col-sm-12">
             <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/computer9.jpeg">
             <span id="reviews-anchor"></span>
-            <h3>Reviews</h3>
+            <h2>Reviews</h2></br>
             <div class="col-md-4">
               <p>“I've always loved technology but I didn’t consider it a career path because I didn’t feel confident in my skills. CodeDame has
                 given me the tools I need to trust myself and make the changes that my life needs.”</p>

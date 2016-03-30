@@ -17,6 +17,7 @@ get_header(); ?>
   <div class="row">
     <div class="col-md-12">
       <div class="code-dame">
+        <img src="http://localhost:8888/project2/wp-content/themes/chipmunk/img/computer7.jpg">
         <h1>code{dame}</h1>
       </div>
     </div>
@@ -42,7 +43,7 @@ get_header(); ?>
     <div class="download">
       <div class="row">
         <div class="col-sm-12">
-          <h3>Download for IOS</h3>
+          <h3><a href="">Download for IOS</a></h3>
         </div>
       </div>
     </div>
@@ -126,14 +127,15 @@ get_header(); ?>
                   </div>
                   <div class="form">
                     <p>Your Name</br>
-                      <input type="text" name="name"/></p>
-                    <p>Your e-mail</br>
-                      <input type="text" name="email"/></p>
+                      <input type="text" class="form-control" placeholder=""></p></p>
+                    <p>E-mail address</br>
+                      <input type="text" class="form-control" placeholder="example@gmail.com"></p>
                     <p>Subject</br>
-                      <input type="text" name="subject"/></p>
+                      <input type="text" class="form-control" placeholder=""></p>
                     <form acion="http:////localhost:8888/project2">
-                      <p>Your Message</p>
-                      <textarea name="message">Enter your message here...</textarea>
+                      <p>Your Message</br>
+                      <textarea class="form-control" rows="8">Enter your message here...</textarea></p>
+                       <button class="btn btn-default" type="submit">Submit</button>
                   </div>
                 </div>
               </div>
